@@ -12,7 +12,7 @@ export function Header() {
   const { t } = useI18n();
   const { user, logout } = useAuth();
   const [open, setOpen] = useState(false);
-
+  
   const nav = [
     { to: "/", label: t("explore") },
     { to: "/attendance", label: t("attendance") },
